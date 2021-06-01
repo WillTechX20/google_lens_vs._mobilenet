@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Mobilenet vs. Google Lens</title>
+        <meta name="viewport" content="width=device-width" intial-scale="1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Mobilenet vs. Google Lens</h1>
+        <img width="640" height="360" src="images/black_fat_sharpie.jpg" alt="Black Fat Sharpie">
+        <div class="test_img_name">Black Fat Sharpie</div>
+        <div class="mobilenet_result_info result_info">
+            <div class="mobilenet_result">Mobilenet Result: Plunger and Plumber's Helper</div>
+            <div class="mobilenet_result_accuracy">Accuracy: 0.04</div>
+        </div>
+        <div class="google_lens_result_info result_info">
+            <div class="google_lens_result">Google Lens Result: Sharpie Fine Permanent Marker</div>
+        </div>
+        <div class="button_row">
+            <span><input type="button" value="Previous Item" onclick="prevItem();"></span>
+            <span><input type="button" value="Next Item" onclick="nextItem();"></span>
+        </div>
+        <p>Google Lens is always more accurate than Mobilenet!</p>
+        <div class="script">
+            <script src="main.js"></script>
+        </div>
+    </body>
+</html>
